@@ -7,7 +7,7 @@ import wget
 
 
 def main():
-    for i in range(30, 1, -1):
+    for i in range(100, 1, -1):
         now = datetime.now() - timedelta(days=i)  # current date and time
         date_time = now.strftime("%Y/%m/%d")
         print(date_time)
